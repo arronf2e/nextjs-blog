@@ -1,4 +1,4 @@
-import { PostType } from './_types'
+import { PostType } from '../../types/post'
 
 type PostProps = {
   post: PostType
@@ -8,8 +8,8 @@ const Post: React.FC<PostProps> = ({ post }) => {
   return (
     <div className="m-10 mb-10 cursor-pointer">
       <article className="container bg-white shadow-2xl rounded-2xl p-5">
-        <h1 className="font-bold text-yellow-500">{post.title}</h1>
-        <p className="font-light text-gray-500 hover:font-bold">{post.desc}</p>
+        <h1 className="font-bold text-yellow-500">hello world</h1>
+        <p className="font-light text-gray-500 hover:font-bold">hello world2</p>
         <h6 className="text-sm text-gray-300 mb-5">Publiée le 08/10/2022</h6>
         <div className="text-right">
           <a

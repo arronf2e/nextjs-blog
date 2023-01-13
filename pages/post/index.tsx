@@ -5,7 +5,7 @@ import type {
   NextPage,
 } from 'next'
 import Post from './[pid]'
-import { PostType } from './_types'
+import { PostType } from '../../types/post'
 
 const PostList: NextPage = ({
   posts,
